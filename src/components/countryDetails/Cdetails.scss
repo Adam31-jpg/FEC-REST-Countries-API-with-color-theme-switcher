@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  .details{
+    display: flex;
+    padding: 15px 0;
+    .right{
+      margin-left: 100px;
+    }
+    span{
+      color: hsl(0, 0%, 52%);
+    }
+
+  }
+
+  .text_white{
+    color: white;
+
+  }
+
+  .borders{
+    display: flex;
+    span{
+      display: flex;
+      margin: 0 5px;
+      p{
+        margin: 0 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 3px;
+        padding: 1px 20px;
+      }
+    }
+  }
+}
+
+
+.back{
+  padding: 0 0 5% 0 ;
+  button{
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border:none;
+    background: transparent;
+    svg{
+      padding-top:  2px;
+    }
+
+  }
+}
+
+
+#countries{
+  padding: 5% 10%;
+}
